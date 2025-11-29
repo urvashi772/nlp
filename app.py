@@ -18,8 +18,8 @@ if st.button("Check Eligibility"):
     if pred == 0:
         st.error("❌ Person is NOT eligible for any service.")
     elif pred == 1:
-        st.success("💳 Person is Eligible for **Credit Card Only**")
+        st.success("💳 Person is Eligible for Credit Card Only")
     elif pred == 2:
-        st.success("🏦 Person is Eligible for **Loan Only**")
+        st.success("🏦 Person is Eligible for Loan Only")
     elif pred == 3:
-        st.success("💳🏦 Person is Eligible for **Both Loan & Credit Card**")
+        st.success("💳🏦 Person is Eligible for Both Loan & Credit Card")
